@@ -1,2 +1,2 @@
 # av.lutficancetin
-Avukat Lütfi Can Çetin Web Sitesi
+Avukat Lütfi Can ÇETİN Web Sitesi
