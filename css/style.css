@@ -243,7 +243,7 @@ nav{display:flex;align-items:center;gap:8px}
   .service-details{text-align:left}
   .approach-text{text-align:left}
   .approach-values{grid-template-columns:1fr 1fr}
-  .contact-grid{grid-template-columns:1fr;gap:24px}
+  .contact-grid{gap:24px}
   .contact-card{flex-direction:row;align-items:flex-start;text-align:left;padding:20px;gap:16px}
   .contact-card .info p,.contact-card .info a{font-size:1.05rem;line-height:1.6}
   .contact-card .info h4{font-size:0.9rem}
@@ -267,11 +267,11 @@ nav{display:flex;align-items:center;gap:8px}
   section{padding:48px 0}
   .contact-section{padding:48px 0 64px}
   .contact-card{padding:16px;gap:12px}
-  .contact-card .info p,.contact-card .info a{font-size:0.95rem;word-break:break-word}
+  .contact-card .info p,.contact-card .info a{font-size:1rem;word-break:break-word}
   .form-card{padding:20px}
-  .form-card h3{font-size:1.2rem}
-  .form-group input,.form-group textarea,.form-group select{font-size:0.95rem;padding:14px 14px}
-  .btn-submit{font-size:0.95rem;padding:14px}
+  .form-card h3{font-size:1.25rem}
+  .form-group input,.form-group textarea,.form-group select{font-size:1rem;padding:16px 16px;border-radius:10px}
+  .btn-submit{font-size:1rem;padding:16px;border-radius:10px}
   .contact-section .section-header{margin-bottom:30px}
   .section-title{font-size:1.5rem}
 }
@@ -389,7 +389,10 @@ section{padding:80px 0}
 /* Contact Section */
 .contact-section{background:var(--cream);transition:background var(--transition)}
 .contact-grid{
-  display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start
+  display:grid;grid-template-columns:1fr;gap:36px;align-items:start
+}
+@media(min-width:900px){
+  .contact-grid{grid-template-columns:1fr 1fr;gap:48px}
 }
 .contact-info-cards{display:flex;flex-direction:column;gap:20px}
 .contact-card{
