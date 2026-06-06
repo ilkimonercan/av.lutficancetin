@@ -247,7 +247,6 @@ nav{display:flex;align-items:center;gap:8px}
   .contact-card{flex-direction:row;align-items:flex-start;text-align:left;padding:20px;gap:16px}
   .contact-card .info p,.contact-card .info a{font-size:1.05rem;line-height:1.6}
   .contact-card .info h4{font-size:0.9rem}
-  .form-row{grid-template-columns:1fr}
   .form-card{padding:28px}
   .form-card h3{font-size:1.4rem}
   .form-card .form-desc{font-size:0.95rem}
@@ -440,7 +439,7 @@ section{padding:80px 0}
   border-color:var(--gold);box-shadow:0 0 0 3px rgba(201,168,76,0.15)
 }
 .form-group textarea{min-height:120px;resize:vertical}
-.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form-row{display:grid;grid-template-columns:1fr;gap:16px}
 .btn-submit{
   width:100%;padding:14px;background:var(--gold);color:var(--navy);
   border:none;border-radius:8px;font-family:var(--font-ui);font-size:0.95rem;
@@ -543,3 +542,4 @@ html[dir="rtl"] .contact-card .info{text-align:right}
   header,.whatsapp-float{display:none}
   .hero{min-height:auto;padding:40px 0;background:var(--navy)!important;-webkit-print-color-adjust:exact}
 }
+
