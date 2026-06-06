@@ -244,7 +244,8 @@ nav{display:flex;align-items:center;gap:8px}
   .approach-text{text-align:left}
   .approach-values{grid-template-columns:1fr 1fr}
   .contact-grid{grid-template-columns:1fr;gap:32px}
-  .contact-card{flex-direction:column;align-items:center;text-align:center}
+  .contact-card{flex-direction:column;align-items:center;text-align:center;padding:20px}
+  .contact-card .info p,.contact-card .info a{font-size:1rem}
   .form-row{grid-template-columns:1fr}
   .form-card{padding:24px}
   .footer-grid{grid-template-columns:1fr;gap:28px;text-align:center}
@@ -259,6 +260,12 @@ nav{display:flex;align-items:center;gap:8px}
   .hero-buttons .btn{font-size:0.8rem;padding:10px 16px}
   .container{padding:0 12px}
   section{padding:40px 0}
+  .contact-card{padding:16px;gap:10px}
+  .contact-card .info p,.contact-card .info a{font-size:0.85rem;word-break:break-word}
+  .form-card{padding:16px}
+  .form-card h3{font-size:1.1rem}
+  .form-group input,.form-group textarea,.form-group select{font-size:0.85rem;padding:10px 12px}
+  .btn-submit{font-size:0.85rem;padding:12px}
 }
 @media(max-width:380px){
   .hero-card{max-width:170px}
