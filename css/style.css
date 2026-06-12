@@ -255,6 +255,7 @@ nav{display:flex;align-items:center;gap:8px}
   .btn-submit{font-size:1rem;padding:16px}
   .footer-grid{grid-template-columns:1fr;gap:28px;text-align:center}
   .footer-bottom{flex-direction:column;text-align:center}
+  footer ul li, footer ul a { overflow-wrap: break-word; word-break: break-word; }
 }
 @media(max-width:480px){
   .hero-card{max-width:200px}
@@ -545,4 +546,3 @@ html[dir="rtl"] .contact-card .info{text-align:right}
   header,.whatsapp-float{display:none}
   .hero{min-height:auto;padding:40px 0;background:var(--navy)!important;-webkit-print-color-adjust:exact}
 }
-
